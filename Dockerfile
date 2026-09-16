@@ -10,7 +10,7 @@
 # Matches the app image's Ruby (see .ruby-version); the gemspec floor is 3.4.
 # Digest-pinned so builds can't silently pick up whatever the tag points at;
 # Dependabot (docker ecosystem) PRs tag and digest bumps.
-FROM docker.io/library/ruby:4.0.6-slim@sha256:abd7528c4df35d151e2643d5efb845e442a26e36a4babc6459bee508619137a2 AS base
+FROM docker.io/library/ruby:4.0.7-slim@sha256:cb29a291f3ac4616306a370e90afda30ca822d93a355b343e0474ae80a9c8a14 AS base
 
 WORKDIR /imap
 
