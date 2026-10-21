@@ -36,7 +36,7 @@ GEM
     ed25519 (1.4.0)
     i18n (1.15.2)
       concurrent-ruby (~> 1.0)
-    json (2.21.1)
+    json (3.1.0)
     kamal (2.12.0)
       activesupport (>= 7.0)
       base64 (~> 0.2)
@@ -74,14 +74,14 @@ GEM
     rack (3.2.6)
     rainbow (3.1.1)
     regexp_parser (2.12.0)
-    rubocop (1.88.2)
-      json (~> 2.3)
+    rubocop (1.92.0)
+      json (>= 2.3)
       language_server-protocol (~> 3.17.0.2)
       lint_roller (~> 1.1.0)
       parallel (>= 1.10)
       parser (>= 3.3.0.2)
       rainbow (>= 2.2.2, < 4.0)
-      regexp_parser (>= 2.9.3, < 3.0)
+      regexp_parser (>= 2.11.3, < 3.0)
       rubocop-ast (>= 1.49.0, < 2.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 2.4.0, < 4.0)
@@ -148,7 +148,7 @@ CHECKSUMS
   drb (2.2.3) sha256=0b00d6fdb50995fe4a45dea13663493c841112e4068656854646f418fda13373
   ed25519 (1.4.0) sha256=16e97f5198689a154247169f3453ef4cfd3f7a47481fde0ae33206cdfdcac506
   i18n (1.15.2) sha256=00f9eb62412fe593b2a65a97daa75300d37abb8f7202ec748e94b6d46a9dd1b5
-  json (2.21.1) sha256=13a43df75d95641443f5702dff350f237164a9d811ff0f2c2800d4d980220583
+  json (3.1.0) sha256=3ce7ccf8fde58960177a3a756c31f292a4c1e1dedee884547096a5b0604e3bd8
   kamal (2.12.0) sha256=c51d1ab085e515470f98d0c0f043637122b5ebf76e8b610cb1fbbed0b7f9b8fa
   language_server-protocol (3.17.0.6) sha256=5ef2c0c138f8267e1bc631d3328347d354f96724b0af22f2c79516120443b7f0
   lint_roller (1.1.0) sha256=2c0c845b632a7d172cb849cc90c1bce937a28c5c8ccccb50dfd46a485003cc87
@@ -168,7 +168,7 @@ CHECKSUMS
   rack (3.2.6) sha256=5ed78e1f73b2e25679bec7d45ee2d4483cc4146eb1be0264fc4d94cb5ef212c2
   rainbow (3.1.1) sha256=039491aa3a89f42efa1d6dec2fc4e62ede96eb6acd95e52f1ad581182b79bc6a
   regexp_parser (2.12.0) sha256=35a916a1d63190ab5c9009457136ae5f3c0c7512d60291d0d1378ba18ce08ebb
-  rubocop (1.88.2) sha256=8def251c90cd955feb4daa3edc0ab56893250c4ce90ef81e6c80c03f9a939bbf
+  rubocop (1.92.0) sha256=2af68041fb2e70bd9321d0479b49fad07f8008a3d0758c83347b4917128c56e0
   rubocop-ast (1.50.0) sha256=b9ca88300da0803ee222ad20cdb30494c0a784eed06fdc35d254b06d662788db
   rubocop-performance (1.26.1) sha256=cd19b936ff196df85829d264b522fd4f98b6c89ad271fa52744a8c11b8f71834
   rubocop-rails (2.36.0) sha256=105a5f5b0001ff2ef28a3af90da50862464e0775e8d0016d599079c0ca408bdb
